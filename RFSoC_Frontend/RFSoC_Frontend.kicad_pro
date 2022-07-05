@@ -398,7 +398,7 @@
       "idf": "",
       "netlist": "../../../",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Desktop/RFSoC_Frontend.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
