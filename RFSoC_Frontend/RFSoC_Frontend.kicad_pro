@@ -60,7 +60,12 @@
           "width": 0.342587
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|108000000|104689000|00000000-0000-0000-0000-00006178257c|9426e5d5-5b06-4848-9b0b-f06a97412b6d",
+        "silk_over_copper|142800000|104689000|00000000-0000-0000-0000-00006178257c|39284ec1-bf26-4010-9bd2-c01d188aa29a",
+        "silk_over_copper|191200000|104689000|00000000-0000-0000-0000-00006178257c|b7177fbe-04ba-43da-9e8d-120753cf565f",
+        "silk_over_copper|222784200|95000000|00000000-0000-0000-0000-000060452c6e|60dfc313-c6ee-41ea-97d6-b8bc01bc5384"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
