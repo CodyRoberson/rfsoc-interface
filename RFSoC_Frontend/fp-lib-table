@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name local)(type KiCad)(uri ${KIPRJMOD}/local.pretty)(options "")(descr ""))
-  (lib (name LPAM)(type KiCad)(uri ${KIPRJMOD}/LPAM-40-01.0-X-08-X-K-TR)(options "")(descr ""))
+  (lib (name "local")(type "KiCad")(uri "${KIPRJMOD}/local.pretty")(options "")(descr ""))
+  (lib (name "LPAM")(type "KiCad")(uri "${KIPRJMOD}/LPAM-40-01.0-X-08-X-K-TR")(options "")(descr ""))
+  (lib (name "TCM2-33WX_")(type "KiCad")(uri "/home/rslsync/EricAsu/RFSoC_Frontend_v0.1/TCM2-33WX_")(options "")(descr ""))
 )
