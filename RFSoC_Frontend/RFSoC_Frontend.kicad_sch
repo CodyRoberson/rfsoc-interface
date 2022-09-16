@@ -4,6 +4,14 @@
 
   (paper "C")
 
+  (title_block
+    (title "rfsoc front-end")
+    (date "2022-09-16")
+    (rev "B")
+    (company "ASU")
+    (comment 1 "Updated to fix grounded util-3v3 bus schematic error")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0.254 3.048 0)
@@ -2685,26 +2693,26 @@
     (pin "2" (uuid 9ea88b35-a12b-4c7d-bf68-dca34169df0a))
   )
 
-  (sheet (at 93.98 234.95) (size 50.8 24.13) (fields_autoplaced)
+  (sheet (at 93.98 234.95) (size 102.87 56.642) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-0000604828d0)
     (property "Sheet name" "FMC BANK 0 (ADC)" (id 0) (at 93.98 234.2384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "FMC_0.kicad_sch" (id 1) (at 93.98 259.6646 0)
+    (property "Sheet file" "FMC_0.kicad_sch" (id 1) (at 93.98 292.1766 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 288.29 231.14) (size 53.34 24.13) (fields_autoplaced)
+  (sheet (at 288.29 231.14) (size 86.868 56.642) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00006049b2da)
     (property "Sheet name" "FMC BANK 1 (DAC)" (id 0) (at 288.29 230.4284 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "FMC_1.kicad_sch" (id 1) (at 288.29 255.8546 0)
+    (property "Sheet file" "FMC_1.kicad_sch" (id 1) (at 288.29 288.3666 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -3172,9 +3180,6 @@
     (path "/00000000-0000-0000-0000-0000604828d0/d18b026e-f861-4f8a-8b80-ba8040874245"
       (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000604828d0/3350fca3-65f8-4d10-9fa9-abe5b6f9cf93"
-      (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000604828d0/e287642c-deed-4fba-bf77-c71f0df7028d"
       (reference "#PWR0226") (unit 1) (value "GND") (footprint "")
     )
@@ -3216,9 +3221,6 @@
     )
     (path "/00000000-0000-0000-0000-00006049b2da/e9d5c4f1-438b-4c5f-b9dc-dc6b2ec96d98"
       (reference "#PWR0239") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006049b2da/1f5cfb06-af34-46d4-b50e-b49be107462c"
-      (reference "#PWR0240") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006049b2da/ef1ed020-cc9c-4589-8918-fa63043e857d"
       (reference "#PWR0241") (unit 1) (value "GND") (footprint "")
@@ -3462,9 +3464,6 @@
     )
     (path "/00000000-0000-0000-0000-00006049b2da/401e9028-4f1f-43ee-b949-f5b96ec2e96f"
       (reference "#PWR0321") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00006049b2da/bde62ce2-d82b-4cd1-91f0-a3ec44008bb2"
-      (reference "#PWR0322") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006049b2da/1c5586e9-766a-4d69-9175-4ec76a8e4c63"
       (reference "#PWR0323") (unit 1) (value "GND") (footprint "")
